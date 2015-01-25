@@ -4,8 +4,500 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a1235a5272ea50a18b4caee1301c8ed0",
+    "hash": "56e90eb3f1259f3d854fc9a25bf303f3",
     "packages": [
+        {
+            "name": "entomb/slim-json-api",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/entomb/slim-json-api.git",
+                "reference": "1d4531499a42af085157796e41afdb0415eceff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/entomb/slim-json-api/zipball/1d4531499a42af085157796e41afdb0415eceff6",
+                "reference": "1d4531499a42af085157796e41afdb0415eceff6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "jsonAPI/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Tavares",
+                    "email": "the.entomb@gmail.com",
+                    "homepage": "https://github.com/entomb",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Slim extension to implement fast JSON API's",
+            "homepage": "https://github.com/entomb/slim-json-api",
+            "keywords": [
+                "api",
+                "json",
+                "middleware",
+                "slim",
+                "view"
+            ],
+            "time": "2014-08-25 12:39:35"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf",
+                "reference": "a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Whoops": "src/"
+                },
+                "classmap": [
+                    "src/deprecated"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://github.com/filp/whoops",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "silex-provider",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2014-10-26 09:05:09"
+        },
+        {
+            "name": "flynsarmy/slim-monolog",
+            "version": "v1.0.0",
+            "target-dir": "Flynsarmy/SlimMonolog",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flynsarmy/Slim-Monolog.git",
+                "reference": "62ff4a81a8b5f51b10bbe0eff5ee5ae5fcd2f587"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flynsarmy/Slim-Monolog/zipball/62ff4a81a8b5f51b10bbe0eff5ee5ae5fcd2f587",
+                "reference": "62ff4a81a8b5f51b10bbe0eff5ee5ae5fcd2f587",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": ">=1.6.0",
+                "php": ">=5.3.0",
+                "slim/slim": ">=2.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Flynsarmy\\SlimMonolog": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Flyn San",
+                    "email": "flynsarmy@gmail.com",
+                    "homepage": "http://www.flynsarmy.com/"
+                }
+            ],
+            "description": "Monolog logging support Slim Framework",
+            "homepage": "http://github.com/flynsarmy/Slim-Monolog",
+            "keywords": [
+                "extensions",
+                "logging",
+                "middleware"
+            ],
+            "time": "2013-12-19 21:40:30"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
+                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "~2.4, >2.4.8",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "raven/raven": "~0.5",
+                "ruflin/elastica": "0.90.*",
+                "videlalvaro/php-amqplib": "~2.4"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2014-12-29 21:29:35"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v5.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "d3802c597bff8f6c2ccfa3eab2a511aa01b8d68f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/d3802c597bff8f6c2ccfa3eab2a511aa01b8d68f",
+                "reference": "d3802c597bff8f6c2ccfa3eab2a511aa01b8d68f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.pop3.php",
+                    "class.smtp.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2014-05-14 07:04:18"
+        },
+        {
+            "name": "psecio/jwt",
+            "version": "1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/psecio/jwt.git",
+                "reference": "1afa9ad6a67ce33b913b6c2101b44c8af2652528"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/psecio/jwt/zipball/1afa9ad6a67ce33b913b6c2101b44c8af2652528",
+                "reference": "1afa9ad6a67ce33b913b6c2101b44c8af2652528",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psecio": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Cornutt",
+                    "email": "ccornutt@phpdeveloper.org",
+                    "homepage": "http://www.phpdeveloper.org/"
+                }
+            ],
+            "description": "A JWT (JSON Web Token) Encoding & Decoding library",
+            "homepage": "https://github.com/psecio/jwt.git",
+            "keywords": [
+                "json",
+                "jwt",
+                "token",
+                "web"
+            ],
+            "time": "2014-11-14 15:30:16"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "slim/extras",
+            "version": "2.0.3",
+            "target-dir": "Slim/Extras",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim-Extras.git",
+                "reference": "a022ed23dae94e164000acd891e3394d903f9623"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim-Extras/zipball/a022ed23dae94e164000acd891e3394d903f9623",
+                "reference": "a022ed23dae94e164000acd891e3394d903f9623",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "slim/slim": ">=2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Twig_Extensions_": "Views/Extension/",
+                    "Slim\\Extras": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://www.silentworks.co.uk/"
+                },
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Extras package for the Slim Framework",
+            "homepage": "http://github.com/codeguy/Slim-Extras",
+            "keywords": [
+                "extensions",
+                "middleware",
+                "templating"
+            ],
+            "time": "2013-01-07 17:56:10"
+        },
+        {
+            "name": "slim/logger",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim-Logger.git",
+                "reference": "ad3a2e62236f5d37056de9a4586659edc8164937"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim-Logger/zipball/ad3a2e62236f5d37056de9a4586659edc8164937",
+                "reference": "ad3a2e62236f5d37056de9a4586659edc8164937",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "slim/slim": ">=2.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Logger\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework logger",
+            "time": "2014-07-16 20:11:26"
+        },
+        {
+            "name": "slim/middleware",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim-Middleware.git",
+                "reference": "1190251a89a3044eda9d16dcb456dc92dba2d0c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim-Middleware/zipball/1190251a89a3044eda9d16dcb456dc92dba2d0c8",
+                "reference": "1190251a89a3044eda9d16dcb456dc92dba2d0c8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "slim/slim": ">=2.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework middleware",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "middleware",
+                "slim"
+            ],
+            "time": "2013-09-18 18:13:40"
+        },
         {
             "name": "slim/slim",
             "version": "2.5.0",
@@ -51,6 +543,57 @@
                 "router"
             ],
             "time": "2014-12-09 19:59:29"
+        },
+        {
+            "name": "zeuxisoo/slim-whoops",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zeuxisoo/php-slim-whoops.git",
+                "reference": "da0250b0d1211bd90c5ab7e8cf7c3925e8376095"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zeuxisoo/php-slim-whoops/zipball/da0250b0d1211bd90c5ab7e8cf7c3925e8376095",
+                "reference": "da0250b0d1211bd90c5ab7e8cf7c3925e8376095",
+                "shasum": ""
+            },
+            "require": {
+                "filp/whoops": "1.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "filp/whoops": "1.*",
+                "phpunit/phpunit": "3.7.*@dev",
+                "slim/slim": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zeuxisoo\\Whoops\\Provider\\Slim\\WhoopsMiddleware": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Zeuxis Lo",
+                    "email": "seekstudio@gmail.com",
+                    "homepage": "http://www.chair.im/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP whoops error on slim framework",
+            "homepage": "https://github.com/zeuxisoo/php-slim-whoops/",
+            "keywords": [
+                "error",
+                "exception",
+                "slim",
+                "whoops"
+            ],
+            "time": "2014-11-06 06:47:24"
         }
     ],
     "packages-dev": [],
